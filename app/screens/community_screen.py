@@ -426,11 +426,81 @@ class CommunityScreen:
 
     def _build_chat_content(self):
         """Build the AI chat tab content."""
-        # Create safety status card
-        safety_status = create_safety_status_card()
+        # Create title section
+        title_section = ft.Container(
+            content=ft.Column(
+                controls=[
+                    ft.Text(
+                        value="Community Safety Chat",
+                        size=24,
+                        weight=ft.FontWeight.BOLD,
+                    ),
+                    ft.Text(
+                        value="Report incidents and get safety information",
+                        size=16,
+                        color=ft.colors.GREY_700,
+                    ),
+                ],
+            ),
+            padding=ft.padding.only(left=20, right=20, top=20, bottom=10),
+        )
 
-        # Create quick actions panel
-        quick_actions = create_quick_actions_panel()
+        # Create safety status card with visible styling
+        safety_status = ft.Container(
+            content=create_safety_status_card(),
+            padding=ft.padding.symmetric(horizontal=20),
+            margin=ft.margin.only(bottom=10),
+        )
+
+        # Create quick actions panel with event handlers
+        quick_actions_panel = create_quick_actions_panel()
+
+        # Add event handlers to the quick action buttons
+        if isinstance(quick_actions_panel, ft.Container) and isinstance(quick_actions_panel.content, ft.Row):
+            # Get the buttons from the row
+            buttons = quick_actions_panel.content.controls
+
+            # Add event handlers to each button
+            if len(buttons) >= 1:  # Emergency button
+                buttons[0].on_click = lambda _: self._trigger_emergency()
+
+            if len(buttons) >= 2:  # Report button
+                buttons[1].on_click = lambda _: self._show_report_dialog()
+
+            if len(buttons) >= 3:  # Safe Route button
+                buttons[2].on_click = lambda _: self._show_safe_route_dialog()
+
+        quick_actions = ft.Container(
+            content=quick_actions_panel,
+            padding=ft.padding.symmetric(horizontal=20),
+            margin=ft.margin.only(bottom=10),
+        )
+
+        # Create info banner
+        info_banner = ft.Container(
+            content=ft.Row(
+                controls=[
+                    ft.Icon(
+                        name="info",
+                        color=ft.colors.WHITE,
+                        size=20,
+                    ),
+                    ft.Text(
+                        value="Your reports help keep the community safe",
+                        color=ft.colors.WHITE,
+                        weight=ft.FontWeight.BOLD,
+                        size=14,
+                    ),
+                ],
+                alignment=ft.MainAxisAlignment.CENTER,
+                vertical_alignment=ft.CrossAxisAlignment.CENTER,
+                spacing=8,
+            ),
+            bgcolor=colors["community"],
+            padding=ft.padding.symmetric(horizontal=16, vertical=8),
+            border_radius=20,
+            margin=ft.margin.only(bottom=15),
+        )
 
         # Create chat interface
         if self.ai_chat_service:
@@ -472,64 +542,13 @@ class CommunityScreen:
                 expand=True,
             )
 
-        # Create title section
-        title_section = ft.Container(
-            content=ft.Column(
-                controls=[
-                    ft.Text(
-                        value="Community Safety Chat",
-                        size=24,
-                        weight=ft.FontWeight.BOLD,
-                    ),
-                    ft.Text(
-                        value="Report incidents and get safety information",
-                        size=16,
-                        color=ft.colors.GREY_700,
-                    ),
-                ],
-            ),
-            padding=ft.padding.only(left=20, right=20, top=20, bottom=10),
-        )
-
-        # Create info banner
-        info_banner = ft.Container(
-            content=ft.Row(
-                controls=[
-                    ft.Icon(
-                        name="info",
-                        color=ft.colors.WHITE,
-                        size=20,
-                    ),
-                    ft.Text(
-                        value="Your reports help keep the community safe",
-                        color=ft.colors.WHITE,
-                        weight=ft.FontWeight.BOLD,
-                        size=14,
-                    ),
-                ],
-                alignment=ft.MainAxisAlignment.CENTER,
-                vertical_alignment=ft.CrossAxisAlignment.CENTER,
-                spacing=8,
-            ),
-            bgcolor=colors["community"],
-            padding=ft.padding.symmetric(horizontal=16, vertical=8),
-            border_radius=20,
-            margin=ft.margin.only(bottom=15),
-        )
-
-        # Combine all elements
+        # Combine all elements in a scrollable column
         return ft.Container(
             content=ft.Column(
                 controls=[
                     title_section,
-                    ft.Container(
-                        content=safety_status,
-                        padding=ft.padding.symmetric(horizontal=20),
-                    ),
-                    ft.Container(
-                        content=quick_actions,
-                        padding=ft.padding.symmetric(horizontal=20),
-                    ),
+                    safety_status,
+                    quick_actions,
                     ft.Container(
                         content=info_banner,
                         padding=ft.padding.symmetric(horizontal=20),
@@ -542,6 +561,7 @@ class CommunityScreen:
                 ],
                 spacing=10,
                 expand=True,
+                scroll=ft.ScrollMode.AUTO,
             ),
             padding=0,
         )
@@ -771,7 +791,10 @@ class CommunityScreen:
             # Find the chat interface in the UI
             logger.info("Updating chat interface with new messages")
             chat_tab = self.page.views[-1].controls[0].content.tabs[1]
-            chat_interface = chat_tab.content.content.controls[2].content
+
+            # The chat interface is the last control in the column
+            chat_container = chat_tab.content.content.controls[-1]
+            chat_interface = chat_container.content
 
             # Update the chat interface with the new messages
             chat_interface.update_chat_history(chat_history)
@@ -889,3 +912,141 @@ class CommunityScreen:
         )
         self.page.dialog.open = True
         self.page.update()
+
+    def _show_report_dialog(self):
+        """Show a dialog for reporting incidents."""
+        # Create a dialog with a form for reporting incidents
+        self.page.dialog = ft.AlertDialog(
+            title=ft.Text("Report Incident"),
+            content=ft.Column(
+                controls=[
+                    ft.Text("Please provide details about the incident:"),
+                    ft.Dropdown(
+                        label="Incident Type",
+                        options=[
+                            ft.dropdown.Option("Suspicious Activity"),
+                            ft.dropdown.Option("Infrastructure Issue"),
+                            ft.dropdown.Option("Theft"),
+                            ft.dropdown.Option("Assault"),
+                            ft.dropdown.Option("Other"),
+                        ],
+                        width=300,
+                    ),
+                    ft.TextField(
+                        label="Location",
+                        hint_text="Where did this happen?",
+                        width=300,
+                    ),
+                    ft.TextField(
+                        label="Description",
+                        hint_text="Provide details about what happened",
+                        multiline=True,
+                        min_lines=3,
+                        max_lines=5,
+                        width=300,
+                    ),
+                    ft.Row(
+                        controls=[
+                            ft.Checkbox(label="Share my location"),
+                            ft.Checkbox(label="Report anonymously"),
+                        ],
+                    ),
+                ],
+                spacing=15,
+                width=300,
+                height=400,
+                scroll=ft.ScrollMode.AUTO,
+            ),
+            actions=[
+                ft.TextButton("Cancel", on_click=lambda _: setattr(self.page, "dialog", None)),
+                ft.TextButton("Submit", on_click=lambda _: self._submit_report()),
+            ],
+        )
+        self.page.dialog.open = True
+        self.page.update()
+
+    def _submit_report(self):
+        """Submit an incident report."""
+        # Close the dialog
+        self.page.dialog = None
+
+        # Show a confirmation message
+        self.page.snack_bar = ft.SnackBar(
+            content=ft.Text("Your report has been submitted. Thank you for helping keep the community safe."),
+            action="OK",
+            bgcolor=colors["success"],
+        )
+        self.page.snack_bar.open = True
+        self.page.update()
+
+    def _show_safe_route_dialog(self):
+        """Show a dialog for finding safe routes."""
+        # Create a dialog with a form for finding safe routes
+        self.page.dialog = ft.AlertDialog(
+            title=ft.Text("Find Safe Route"),
+            content=ft.Column(
+                controls=[
+                    ft.Text("Please provide your destination:"),
+                    ft.TextField(
+                        label="Starting Point",
+                        hint_text="Your current location",
+                        width=300,
+                    ),
+                    ft.TextField(
+                        label="Destination",
+                        hint_text="Where are you going?",
+                        width=300,
+                    ),
+                    ft.Dropdown(
+                        label="Travel Mode",
+                        options=[
+                            ft.dropdown.Option("Walking"),
+                            ft.dropdown.Option("Public Transport"),
+                            ft.dropdown.Option("Driving"),
+                        ],
+                        width=300,
+                    ),
+                    ft.Dropdown(
+                        label="Safety Priority",
+                        options=[
+                            ft.dropdown.Option("Balanced (Default)"),
+                            ft.dropdown.Option("Maximum Safety"),
+                            ft.dropdown.Option("Fastest Route"),
+                        ],
+                        width=300,
+                    ),
+                    ft.Row(
+                        controls=[
+                            ft.Checkbox(label="Avoid high-crime areas"),
+                            ft.Checkbox(label="Prefer well-lit routes"),
+                        ],
+                    ),
+                ],
+                spacing=15,
+                width=300,
+                height=400,
+                scroll=ft.ScrollMode.AUTO,
+            ),
+            actions=[
+                ft.TextButton("Cancel", on_click=lambda _: setattr(self.page, "dialog", None)),
+                ft.TextButton("Find Route", on_click=lambda _: self._find_safe_route()),
+            ],
+        )
+        self.page.dialog.open = True
+        self.page.update()
+
+    def _find_safe_route(self):
+        """Find a safe route."""
+        # Close the dialog
+        self.page.dialog = None
+
+        # Show a loading message
+        self.page.snack_bar = ft.SnackBar(
+            content=ft.Text("Finding the safest route to your destination..."),
+            action="OK",
+        )
+        self.page.snack_bar.open = True
+        self.page.update()
+
+        # Navigate to the navigation screen
+        self.page.go("/navigation")
