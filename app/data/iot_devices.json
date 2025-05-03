@@ -1,0 +1,236 @@
+{
+  "supported_devices": [
+    {
+      "id": "smart_camera_1",
+      "name": "Smart Security Camera",
+      "type": "camera",
+      "manufacturer": "SafeCam",
+      "capabilities": [
+        "video",
+        "motion",
+        "audio"
+      ],
+      "connection_types": [
+        "wifi",
+        "bluetooth"
+      ],
+      "description": "Indoor/outdoor security camera with motion detection"
+    },
+    {
+      "id": "smart_lock_1",
+      "name": "Smart Door Lock",
+      "type": "lock",
+      "manufacturer": "SecureLock",
+      "capabilities": [
+        "lock",
+        "unlock",
+        "status"
+      ],
+      "connection_types": [
+        "wifi",
+        "zigbee"
+      ],
+      "description": "Smart door lock with remote control and status monitoring"
+    },
+    {
+      "id": "panic_button_1",
+      "name": "Wearable Panic Button",
+      "type": "panic_button",
+      "manufacturer": "SafeWear",
+      "capabilities": [
+        "alert",
+        "location"
+      ],
+      "connection_types": [
+        "bluetooth",
+        "cellular"
+      ],
+      "description": "Wearable panic button with GPS location tracking"
+    },
+    {
+      "id": "alarm_system_1",
+      "name": "Home Security System",
+      "type": "alarm",
+      "manufacturer": "SecureHome",
+      "capabilities": [
+        "arm",
+        "disarm",
+        "alert",
+        "zones"
+      ],
+      "connection_types": [
+        "wifi",
+        "cellular"
+      ],
+      "description": "Complete home security system with multiple sensors"
+    },
+    {
+      "id": "smoke_detector_1",
+      "name": "Smart Smoke Detector",
+      "type": "sensor",
+      "manufacturer": "SafeSense",
+      "capabilities": [
+        "smoke",
+        "co",
+        "temperature"
+      ],
+      "connection_types": [
+        "wifi",
+        "zigbee"
+      ],
+      "description": "Smart smoke and carbon monoxide detector"
+    },
+    {
+      "id": "motion_sensor_1",
+      "name": "Motion Sensor",
+      "type": "sensor",
+      "manufacturer": "SafeSense",
+      "capabilities": [
+        "motion",
+        "temperature",
+        "light"
+      ],
+      "connection_types": [
+        "wifi",
+        "zigbee"
+      ],
+      "description": "Multi-function motion sensor for security monitoring"
+    },
+    {
+      "id": "smart_speaker_1",
+      "name": "Smart Speaker",
+      "type": "speaker",
+      "manufacturer": "EchoTech",
+      "capabilities": [
+        "voice",
+        "audio",
+        "assistant"
+      ],
+      "connection_types": [
+        "wifi",
+        "bluetooth"
+      ],
+      "description": "Smart speaker with voice assistant for emergency commands"
+    },
+    {
+      "id": "medical_alert_1",
+      "name": "Medical Alert Pendant",
+      "type": "medical",
+      "manufacturer": "MediSafe",
+      "capabilities": [
+        "alert",
+        "fall_detection",
+        "location"
+      ],
+      "connection_types": [
+        "cellular",
+        "bluetooth"
+      ],
+      "description": "Medical alert pendant with fall detection"
+    }
+  ],
+  "supported_systems": [
+    {
+      "id": "adt_security",
+      "name": "ADT Security",
+      "type": "security_system",
+      "integration_level": "full",
+      "capabilities": [
+        "arm",
+        "disarm",
+        "alerts",
+        "sensors",
+        "cameras"
+      ]
+    },
+    {
+      "id": "ring_security",
+      "name": "Ring Security",
+      "type": "security_system",
+      "integration_level": "full",
+      "capabilities": [
+        "arm",
+        "disarm",
+        "alerts",
+        "sensors",
+        "cameras"
+      ]
+    },
+    {
+      "id": "simplisafe",
+      "name": "SimpliSafe",
+      "type": "security_system",
+      "integration_level": "partial",
+      "capabilities": [
+        "alerts",
+        "status"
+      ]
+    },
+    {
+      "id": "nest_secure",
+      "name": "Nest Secure",
+      "type": "security_system",
+      "integration_level": "full",
+      "capabilities": [
+        "arm",
+        "disarm",
+        "alerts",
+        "sensors",
+        "cameras"
+      ]
+    },
+    {
+      "id": "honeywell_security",
+      "name": "Honeywell Security",
+      "type": "security_system",
+      "integration_level": "partial",
+      "capabilities": [
+        "alerts",
+        "status"
+      ]
+    }
+  ],
+  "insurance_integrations": [
+    {
+      "id": "state_farm",
+      "name": "State Farm",
+      "discount_available": true,
+      "discount_percentage": 10,
+      "requirements": [
+        "security_system",
+        "smoke_detector"
+      ]
+    },
+    {
+      "id": "allstate",
+      "name": "Allstate",
+      "discount_available": true,
+      "discount_percentage": 15,
+      "requirements": [
+        "security_system",
+        "smart_locks",
+        "cameras"
+      ]
+    },
+    {
+      "id": "geico",
+      "name": "GEICO",
+      "discount_available": true,
+      "discount_percentage": 5,
+      "requirements": [
+        "security_system"
+      ]
+    },
+    {
+      "id": "liberty_mutual",
+      "name": "Liberty Mutual",
+      "discount_available": true,
+      "discount_percentage": 12,
+      "requirements": [
+        "security_system",
+        "smoke_detector",
+        "water_sensor"
+      ]
+    }
+  ]
+}

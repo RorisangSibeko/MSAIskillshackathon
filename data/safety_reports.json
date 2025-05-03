@@ -1,0 +1,407 @@
+[
+  {
+    "id": "report_0",
+    "user_id": "user_26",
+    "type": "lighting",
+    "severity": "high",
+    "description": "My car was broken into while parked here.",
+    "location": {
+      "latitude": -26.171550212680824,
+      "longitude": 28.02404123582687,
+      "address": "Sample Address 0, Johannesburg"
+    },
+    "timestamp": "2025-04-30T11:08:18.268410",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_1",
+    "user_id": "user_14",
+    "type": "hazard",
+    "severity": "critical",
+    "description": "Flooding after rain makes this area impassable.",
+    "location": {
+      "latitude": -26.16763372130887,
+      "longitude": 28.001522384316623,
+      "address": "Sample Address 1, Johannesburg"
+    },
+    "timestamp": "2025-04-23T13:40:11.268526",
+    "status": "pending",
+    "verification_count": 3
+  },
+  {
+    "id": "report_2",
+    "user_id": "user_38",
+    "type": "lighting",
+    "severity": "high",
+    "description": "The underpass is poorly lit and feels unsafe.",
+    "location": {
+      "latitude": -26.204609951200357,
+      "longitude": 28.03322030203582,
+      "address": "Sample Address 2, Johannesburg"
+    },
+    "timestamp": "2025-05-02T16:40:17.268541",
+    "status": "resolved",
+    "verification_count": 6
+  },
+  {
+    "id": "report_3",
+    "user_id": "user_31",
+    "type": "crime",
+    "severity": "critical",
+    "description": "No pedestrian crossing despite heavy traffic.",
+    "location": {
+      "latitude": -26.225275823077524,
+      "longitude": 28.085198021573895,
+      "address": "Sample Address 3, Johannesburg"
+    },
+    "timestamp": "2025-04-09T01:59:36.268575",
+    "status": "pending",
+    "verification_count": 8
+  },
+  {
+    "id": "report_4",
+    "user_id": "user_74",
+    "type": "hazard",
+    "severity": "low",
+    "description": "Several people in the area warned me about pickpockets here.",
+    "location": {
+      "latitude": -26.253181879672923,
+      "longitude": 28.02477870004406,
+      "address": "Sample Address 4, Johannesburg"
+    },
+    "timestamp": "2025-04-19T18:13:14.268590",
+    "status": "verified",
+    "verification_count": 6
+  },
+  {
+    "id": "report_5",
+    "user_id": "user_66",
+    "type": "lighting",
+    "severity": "medium",
+    "description": "Flooding after rain makes this area impassable.",
+    "location": {
+      "latitude": -26.20034939502407,
+      "longitude": 28.037400933143672,
+      "address": "Sample Address 5, Johannesburg"
+    },
+    "timestamp": "2025-04-19T19:38:59.268597",
+    "status": "verified",
+    "verification_count": 0
+  },
+  {
+    "id": "report_6",
+    "user_id": "user_63",
+    "type": "hazard",
+    "severity": "critical",
+    "description": "The park is completely dark after sunset.",
+    "location": {
+      "latitude": -26.198137303547494,
+      "longitude": 28.079179135526005,
+      "address": "Sample Address 6, Johannesburg"
+    },
+    "timestamp": "2025-04-25T09:55:55.268603",
+    "status": "verified",
+    "verification_count": 4
+  },
+  {
+    "id": "report_7",
+    "user_id": "user_33",
+    "type": "infrastructure",
+    "severity": "medium",
+    "description": "Bridge feels unstable and unsafe to cross.",
+    "location": {
+      "latitude": -26.199706756980344,
+      "longitude": 28.032227532233836,
+      "address": "Sample Address 7, Johannesburg"
+    },
+    "timestamp": "2025-04-13T07:32:54.268610",
+    "status": "verified",
+    "verification_count": 3
+  },
+  {
+    "id": "report_8",
+    "user_id": "user_9",
+    "type": "crime",
+    "severity": "high",
+    "description": "Several people in the area warned me about pickpockets here.",
+    "location": {
+      "latitude": -26.170896213860708,
+      "longitude": 28.023305005318146,
+      "address": "Sample Address 8, Johannesburg"
+    },
+    "timestamp": "2025-04-07T13:02:07.268616",
+    "status": "verified",
+    "verification_count": 7
+  },
+  {
+    "id": "report_9",
+    "user_id": "user_80",
+    "type": "crime",
+    "severity": "medium",
+    "description": "Construction site with inadequate barriers.",
+    "location": {
+      "latitude": -26.17528234811051,
+      "longitude": 28.06223448716938,
+      "address": "Sample Address 9, Johannesburg"
+    },
+    "timestamp": "2025-04-13T11:09:26.268622",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_10",
+    "user_id": "user_70",
+    "type": "crime",
+    "severity": "medium",
+    "description": "This alley has no lighting at all.",
+    "location": {
+      "latitude": -26.213235960834616,
+      "longitude": 28.006865056201555,
+      "address": "Sample Address 10, Johannesburg"
+    },
+    "timestamp": "2025-04-30T16:53:42.268627",
+    "status": "resolved",
+    "verification_count": 8
+  },
+  {
+    "id": "report_11",
+    "user_id": "user_52",
+    "type": "hazard",
+    "severity": "high",
+    "description": "Narrow path forces pedestrians to walk in the road.",
+    "location": {
+      "latitude": -26.182676473885294,
+      "longitude": 28.077432405058765,
+      "address": "Sample Address 11, Johannesburg"
+    },
+    "timestamp": "2025-04-24T16:18:48.268632",
+    "status": "resolved",
+    "verification_count": 0
+  },
+  {
+    "id": "report_12",
+    "user_id": "user_33",
+    "type": "hazard",
+    "severity": "critical",
+    "description": "Several people in the area warned me about pickpockets here.",
+    "location": {
+      "latitude": -26.185737432954546,
+      "longitude": 27.997622793696728,
+      "address": "Sample Address 12, Johannesburg"
+    },
+    "timestamp": "2025-05-03T11:27:25.268637",
+    "status": "resolved",
+    "verification_count": 8
+  },
+  {
+    "id": "report_13",
+    "user_id": "user_94",
+    "type": "infrastructure",
+    "severity": "high",
+    "description": "Large pothole in the middle of the road.",
+    "location": {
+      "latitude": -26.15982585984504,
+      "longitude": 28.062790587188154,
+      "address": "Sample Address 13, Johannesburg"
+    },
+    "timestamp": "2025-04-16T08:44:59.268658",
+    "status": "pending",
+    "verification_count": 4
+  },
+  {
+    "id": "report_14",
+    "user_id": "user_37",
+    "type": "crime",
+    "severity": "critical",
+    "description": "Lights are flickering and unreliable in this area.",
+    "location": {
+      "latitude": -26.20689061813001,
+      "longitude": 28.022126306823,
+      "address": "Sample Address 14, Johannesburg"
+    },
+    "timestamp": "2025-04-03T08:23:38.268688",
+    "status": "resolved",
+    "verification_count": 0
+  },
+  {
+    "id": "report_15",
+    "user_id": "user_8",
+    "type": "infrastructure",
+    "severity": "high",
+    "description": "Bridge feels unstable and unsafe to cross.",
+    "location": {
+      "latitude": -26.191939452021685,
+      "longitude": 28.065301209588096,
+      "address": "Sample Address 15, Johannesburg"
+    },
+    "timestamp": "2025-04-25T19:09:46.268695",
+    "status": "verified",
+    "verification_count": 5
+  },
+  {
+    "id": "report_16",
+    "user_id": "user_49",
+    "type": "crime",
+    "severity": "low",
+    "description": "Witnessed a mugging at this location around 8pm.",
+    "location": {
+      "latitude": -26.183541244206165,
+      "longitude": 28.075283657968463,
+      "address": "Sample Address 16, Johannesburg"
+    },
+    "timestamp": "2025-04-12T23:32:19.268700",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_17",
+    "user_id": "user_48",
+    "type": "hazard",
+    "severity": "critical",
+    "description": "Construction site with inadequate barriers.",
+    "location": {
+      "latitude": -26.194783094973356,
+      "longitude": 28.005434482098398,
+      "address": "Sample Address 17, Johannesburg"
+    },
+    "timestamp": "2025-04-02T22:59:53.268706",
+    "status": "pending",
+    "verification_count": 4
+  },
+  {
+    "id": "report_18",
+    "user_id": "user_91",
+    "type": "infrastructure",
+    "severity": "critical",
+    "description": "Street lights are out on this entire block.",
+    "location": {
+      "latitude": -26.202795082425943,
+      "longitude": 28.00432692087252,
+      "address": "Sample Address 18, Johannesburg"
+    },
+    "timestamp": "2025-04-27T10:27:08.268711",
+    "status": "resolved",
+    "verification_count": 6
+  },
+  {
+    "id": "report_19",
+    "user_id": "user_10",
+    "type": "lighting",
+    "severity": "high",
+    "description": "Sidewalk is completely broken and unwalkable.",
+    "location": {
+      "latitude": -26.208882839102557,
+      "longitude": 28.053851782679182,
+      "address": "Sample Address 19, Johannesburg"
+    },
+    "timestamp": "2025-05-01T22:14:15.268716",
+    "status": "resolved",
+    "verification_count": 0
+  },
+  {
+    "id": "report_1746268016_demo_user",
+    "user_id": "demo_user",
+    "type": "hazard",
+    "severity": "medium",
+    "description": "Simulated safety report from the app",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "address": "Location at -26.2041, 28.0473"
+    },
+    "timestamp": "2025-05-03T12:26:56.144198",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_1746268017_demo_user",
+    "user_id": "demo_user",
+    "type": "hazard",
+    "severity": "medium",
+    "description": "Simulated safety report from the app",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "address": "Location at -26.2041, 28.0473"
+    },
+    "timestamp": "2025-05-03T12:26:57.586791",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_1746268685_demo_user",
+    "user_id": "demo_user",
+    "type": "hazard",
+    "severity": "medium",
+    "description": "Simulated safety report from the app",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "address": "Location at -26.2041, 28.0473"
+    },
+    "timestamp": "2025-05-03T12:38:05.567609",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_1746269166_demo_user",
+    "user_id": "demo_user",
+    "type": "hazard",
+    "severity": "medium",
+    "description": "Simulated safety report from the app",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "address": "Location at -26.2041, 28.0473"
+    },
+    "timestamp": "2025-05-03T12:46:06.724577",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_1746269167_demo_user",
+    "user_id": "demo_user",
+    "type": "hazard",
+    "severity": "medium",
+    "description": "Simulated safety report from the app",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "address": "Location at -26.2041, 28.0473"
+    },
+    "timestamp": "2025-05-03T12:46:07.674056",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_1746269456_demo_user",
+    "user_id": "demo_user",
+    "type": "hazard",
+    "severity": "medium",
+    "description": "Simulated safety report from the app",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "address": "Location at -26.2041, 28.0473"
+    },
+    "timestamp": "2025-05-03T12:50:56.785668",
+    "status": "pending",
+    "verification_count": 0
+  },
+  {
+    "id": "report_1746269464_demo_user",
+    "user_id": "demo_user",
+    "type": "hazard",
+    "severity": "medium",
+    "description": "Simulated safety report from the app",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "address": "Location at -26.2041, 28.0473"
+    },
+    "timestamp": "2025-05-03T12:51:04.970345",
+    "status": "pending",
+    "verification_count": 0
+  }
+]

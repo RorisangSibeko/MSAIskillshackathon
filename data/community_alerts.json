@@ -1,0 +1,172 @@
+[
+  {
+    "id": "alert_0",
+    "type": "emergency",
+    "title": "Sample Alert 0",
+    "description": "Several reports of pickpocketing near the train station.",
+    "location": {
+      "latitude": -26.239623276945483,
+      "longitude": 28.08097954164694,
+      "radius": 3,
+      "address": "Sample Area 0, Johannesburg"
+    },
+    "start_time": "2025-04-29T21:10:34.268731",
+    "end_time": "2025-05-22T04:33:35.268734",
+    "severity": "low",
+    "source": "police",
+    "active": true
+  },
+  {
+    "id": "alert_1",
+    "type": "safety_tip",
+    "title": "Sample Alert 1",
+    "description": "Avoid walking alone in this area after dark.",
+    "location": {
+      "latitude": -26.169047369277273,
+      "longitude": 28.091216258672087,
+      "radius": 5,
+      "address": "Sample Area 1, Johannesburg"
+    },
+    "start_time": "2025-04-23T03:36:05.268871",
+    "end_time": "2025-05-07T04:08:48.268886",
+    "severity": "high",
+    "source": "police",
+    "active": true
+  },
+  {
+    "id": "alert_2",
+    "type": "crime_pattern",
+    "title": "Sample Alert 2",
+    "description": "Community safety walk scheduled for this Saturday at 10am.",
+    "location": {
+      "latitude": -26.22953524805713,
+      "longitude": 28.00488797211438,
+      "radius": 3,
+      "address": "Sample Area 2, Johannesburg"
+    },
+    "start_time": "2025-04-24T07:36:14.268909",
+    "end_time": "2025-05-23T01:23:14.268914",
+    "severity": "low",
+    "source": "police",
+    "active": true
+  },
+  {
+    "id": "alert_3",
+    "type": "crime_pattern",
+    "title": "Sample Alert 3",
+    "description": "Major traffic accident blocking all lanes - area congested.",
+    "location": {
+      "latitude": -26.249332090951434,
+      "longitude": 28.01230943141255,
+      "radius": 2,
+      "address": "Sample Area 3, Johannesburg"
+    },
+    "start_time": "2025-04-19T14:33:34.268929",
+    "end_time": "2025-05-09T10:25:24.268933",
+    "severity": "high",
+    "source": "system",
+    "active": false
+  },
+  {
+    "id": "alert_4",
+    "type": "community_event",
+    "title": "Sample Alert 4",
+    "description": "Pattern of robberies targeting people leaving the ATM.",
+    "location": {
+      "latitude": -26.22757536632449,
+      "longitude": 28.02980199009954,
+      "radius": 2,
+      "address": "Sample Area 4, Johannesburg"
+    },
+    "start_time": "2025-04-19T18:23:53.268944",
+    "end_time": "2025-05-09T04:05:34.268949",
+    "severity": "medium",
+    "source": "verified_user",
+    "active": true
+  },
+  {
+    "id": "alert_1746268685",
+    "type": "safety_tip",
+    "title": "Multiple Hazard Reports in Area",
+    "description": "COMMUNITY ALERT: Multiple reports of hazard in this area. Simulated safety report from the app Please be vigilant.",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.047299999999996,
+      "radius": 2,
+      "address": "Area around Location at -26.2041, 28.0473"
+    },
+    "start_time": "2025-05-03T12:38:05.569801",
+    "end_time": "2025-05-10T12:38:05.569832",
+    "severity": "medium",
+    "source": "community",
+    "active": true
+  },
+  {
+    "id": "alert_1746269166",
+    "type": "safety_tip",
+    "title": "Multiple Hazard Reports in Area",
+    "description": "COMMUNITY ALERT: Multiple reports of hazard in this area. Simulated safety report from the app Please be vigilant.",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "radius": 2,
+      "address": "Area around Location at -26.2041, 28.0473"
+    },
+    "start_time": "2025-05-03T12:46:06.724741",
+    "end_time": "2025-05-10T12:46:06.724750",
+    "severity": "medium",
+    "source": "community",
+    "active": true
+  },
+  {
+    "id": "alert_1746269167",
+    "type": "safety_tip",
+    "title": "Multiple Hazard Reports in Area",
+    "description": "COMMUNITY ALERT: Multiple reports of hazard in this area. Simulated safety report from the app Please be vigilant.",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "radius": 2,
+      "address": "Area around Location at -26.2041, 28.0473"
+    },
+    "start_time": "2025-05-03T12:46:07.674150",
+    "end_time": "2025-05-10T12:46:07.674155",
+    "severity": "medium",
+    "source": "community",
+    "active": true
+  },
+  {
+    "id": "alert_1746269456",
+    "type": "safety_tip",
+    "title": "Multiple Hazard Reports in Area",
+    "description": "COMMUNITY ALERT: Multiple reports of hazard in this area. Simulated safety report from the app Please be vigilant.",
+    "location": {
+      "latitude": -26.2041,
+      "longitude": 28.047300000000003,
+      "radius": 2,
+      "address": "Area around Location at -26.2041, 28.0473"
+    },
+    "start_time": "2025-05-03T12:50:56.785750",
+    "end_time": "2025-05-10T12:50:56.785752",
+    "severity": "medium",
+    "source": "community",
+    "active": true
+  },
+  {
+    "id": "alert_1746269464",
+    "type": "safety_tip",
+    "title": "Multiple Hazard Reports in Area",
+    "description": "COMMUNITY ALERT: Multiple reports of hazard in this area. Simulated safety report from the app Please be vigilant.",
+    "location": {
+      "latitude": -26.204100000000004,
+      "longitude": 28.047300000000003,
+      "radius": 2,
+      "address": "Area around Location at -26.2041, 28.0473"
+    },
+    "start_time": "2025-05-03T12:51:04.970427",
+    "end_time": "2025-05-10T12:51:04.970430",
+    "severity": "medium",
+    "source": "community",
+    "active": true
+  }
+]

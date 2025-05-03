@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#1976D2" />
+  
+  <!-- Inner Shield Shape -->
+  <path d="M100 30 L160 60 V110 C160 145 135 170 100 185 C65 170 40 145 40 110 V60 Z" fill="#FFFFFF" />
+  
+  <!-- Path Symbol -->
+  <path d="M80 90 L100 70 L120 90 L120 130" stroke="#1976D2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  
+  <!-- Location Pin -->
+  <circle cx="120" cy="130" r="10" fill="#1976D2" />
+  
+  <!-- AI Symbol -->
+  <text x="75" y="160" font-family="Arial" font-size="24" font-weight="bold" fill="#1976D2">AI</text>
+  
+  <!-- Safety Stars -->
+  <path d="M60 50 L63 56 L70 57 L65 62 L66 69 L60 66 L54 69 L55 62 L50 57 L57 56 Z" fill="#FFD700" />
+  <path d="M140 50 L143 56 L150 57 L145 62 L146 69 L140 66 L134 69 L135 62 L130 57 L137 56 Z" fill="#FFD700" />
+</svg>

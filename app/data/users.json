@@ -1,0 +1,41 @@
+[
+  {
+    "username": "admin",
+    "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "full_name": "Admin User",
+    "email": "admin@safewayai.com",
+    "phone": "+1234567890",
+    "created_at": "2025-05-03T09:48:53.687635",
+    "subscription_tier": "premium",
+    "emergency_contacts": [
+      {
+        "name": "Emergency Contact 1",
+        "phone": "+1987654321",
+        "relationship": "Family"
+      }
+    ]
+  },
+  {
+    "username": "responder",
+    "password_hash": "fafe40317e9a5bde5dc8dd5c477526f2aacb19cef9262d055be96f9528c309e0",
+    "role": "responder",
+    "full_name": "Emergency Responder",
+    "email": "responder@safewayai.com",
+    "phone": "+1234567891",
+    "created_at": "2025-05-03T09:48:53.687707",
+    "subscription_tier": "standard",
+    "emergency_contacts": []
+  },
+  {
+    "username": "viewer",
+    "password_hash": "656d604dfdba41a262963cce53699bbc56cd7a2c0da1ad5ead45fc49214159d6",
+    "role": "viewer",
+    "full_name": "Viewer User",
+    "email": "viewer@safewayai.com",
+    "phone": "+1234567892",
+    "created_at": "2025-05-03T09:48:53.687724",
+    "subscription_tier": "basic",
+    "emergency_contacts": []
+  }
+]

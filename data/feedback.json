@@ -1,0 +1,102 @@
+[
+  {
+    "id": "feedback_0",
+    "user_id": "user_34",
+    "type": "feature",
+    "sentiment": "positive",
+    "content": "The safety alerts are really helpful, especially at night.",
+    "rating": 5,
+    "timestamp": "2025-04-18T17:48:36.268172",
+    "status": "reviewed"
+  },
+  {
+    "id": "feedback_1",
+    "user_id": "user_50",
+    "type": "safety",
+    "sentiment": "neutral",
+    "content": "App crashes sometimes when I try to share my route with friends.",
+    "rating": 1,
+    "timestamp": "2025-04-26T12:35:43.268236",
+    "status": "new"
+  },
+  {
+    "id": "feedback_2",
+    "user_id": "user_34",
+    "type": "app",
+    "sentiment": "negative",
+    "content": "The UI is intuitive and easy to use.",
+    "rating": 3,
+    "timestamp": "2025-04-13T11:33:58.268245",
+    "status": "reviewed"
+  },
+  {
+    "id": "feedback_3",
+    "user_id": "user_34",
+    "type": "feature",
+    "sentiment": "negative",
+    "content": "The UI is intuitive and easy to use.",
+    "rating": 3,
+    "timestamp": "2025-05-01T21:09:34.268249",
+    "status": "addressed"
+  },
+  {
+    "id": "feedback_4",
+    "user_id": "user_8",
+    "type": "feature",
+    "sentiment": "suggestion",
+    "content": "The UI is intuitive and easy to use.",
+    "rating": 2,
+    "timestamp": "2025-04-16T07:32:30.268252",
+    "status": "addressed"
+  },
+  {
+    "id": "feedback_5",
+    "user_id": "user_5",
+    "type": "feature",
+    "sentiment": "positive",
+    "content": "The emergency button feature gives me peace of mind.",
+    "rating": 2,
+    "timestamp": "2025-04-13T14:11:17.268256",
+    "status": "reviewed"
+  },
+  {
+    "id": "feedback_6",
+    "user_id": "user_42",
+    "type": "app",
+    "sentiment": "suggestion",
+    "content": "The emergency button feature gives me peace of mind.",
+    "rating": 1,
+    "timestamp": "2025-04-28T13:00:18.268260",
+    "status": "addressed"
+  },
+  {
+    "id": "feedback_7",
+    "user_id": "user_51",
+    "type": "safety",
+    "sentiment": "neutral",
+    "content": "Would love to see integration with ride-sharing services for late night travel.",
+    "rating": 2,
+    "timestamp": "2025-04-29T04:51:11.268264",
+    "status": "reviewed"
+  },
+  {
+    "id": "feedback_8",
+    "user_id": "user_60",
+    "type": "app",
+    "sentiment": "positive",
+    "content": "Would love to see integration with ride-sharing services for late night travel.",
+    "rating": 4,
+    "timestamp": "2025-04-21T15:23:22.268268",
+    "status": "reviewed"
+  },
+  {
+    "id": "feedback_9",
+    "user_id": "user_52",
+    "type": "feature",
+    "sentiment": "negative",
+    "content": "Sometimes the app is slow to load the map.",
+    "rating": 3,
+    "timestamp": "2025-04-06T01:32:40.268273",
+    "status": "addressed"
+  }
+]

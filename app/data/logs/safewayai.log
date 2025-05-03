@@ -1,0 +1,167 @@
+2025-05-03 14:15:29,987 - flet - INFO - Assets path configured: C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\assets
+2025-05-03 14:15:29,993 - flet - INFO - Starting up TCP server on localhost:61962
+2025-05-03 14:15:29,998 - flet - INFO - Flet app has started...
+2025-05-03 14:15:30,012 - flet - INFO - App URL: tcp://localhost:61962
+2025-05-03 14:15:30,012 - flet_desktop - INFO - Starting Flet View app...
+2025-05-03 14:15:30,014 - flet_desktop - INFO - Looking for Flet executable at: C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet_desktop\app\flet\flet.exe
+2025-05-03 14:15:30,015 - flet_desktop - INFO - Flet View found in: C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet_desktop\app\flet\flet.exe
+2025-05-03 14:15:30,345 - flet - INFO - App session started
+2025-05-03 14:15:30,347 - app.services.location_service - INFO - Initializing location service
+2025-05-03 14:15:30,347 - app.services.service_manager - INFO - Initializing service manager
+2025-05-03 14:15:30,348 - app.services.safe_route_service - INFO - Initializing safe route service
+2025-05-03 14:15:30,382 - app.services.ai_safety_service - INFO - Initializing AI safety service
+2025-05-03 14:15:30,382 - app.services.crime_data_service - INFO - Initializing crime data service
+2025-05-03 14:15:30,382 - app.services.crime_data_service - INFO - Simulating loading crime data from Cosmos DB
+2025-05-03 14:15:30,583 - app.services.crime_data_service - INFO - Generating synthetic crime data
+2025-05-03 14:15:30,593 - app.services.safety_prediction_service - INFO - Initializing safety prediction service
+2025-05-03 14:15:30,594 - app.services.safety_prediction_service - INFO - Using Azure AI services for predictions
+2025-05-03 14:15:30,595 - app.services.location_tracking_service - INFO - Initializing location tracking service
+2025-05-03 14:15:30,596 - app.services.feedback_service - INFO - Initializing feedback service
+2025-05-03 14:15:30,616 - app.services.feedback_service - INFO - Loaded 10 feedback items
+2025-05-03 14:15:30,638 - app.services.feedback_service - INFO - Loaded 27 safety reports
+2025-05-03 14:15:30,660 - app.services.feedback_service - INFO - Loaded 10 community alerts
+2025-05-03 14:15:30,660 - app.services.azure_functions_service - INFO - Azure Functions service initialized
+2025-05-03 14:15:50,835 - app.screens.safe_route_screen - INFO - Finding route from 3012 winnie mandela dr to 57 Bok street via walking at afternoon
+2025-05-03 14:15:50,843 - app.services.safety_prediction_service - INFO - Predicting safety for route with 3 points at afternoon
+2025-05-03 14:15:50,844 - app.services.safety_prediction_service - INFO - Using Azure AI for safety prediction
+2025-05-03 14:15:51,145 - app.services.safety_prediction_service - INFO - Generating alternative routes with AI safety analysis
+2025-05-03 14:15:51,146 - app.services.safety_prediction_service - INFO - Predicting safety for route with 3 points at afternoon
+2025-05-03 14:15:51,146 - app.services.safety_prediction_service - INFO - Predicting safety for route with 5 points at afternoon
+2025-05-03 14:15:51,155 - app.screens.safe_route_screen - ERROR - Error updating route display with AI analysis: colors.with_opacity() missing 1 required positional argument: 'color'
+2025-05-03 14:15:51,164 - app.services.location_tracking_service - INFO - Started tracking track_demo_user_1746274551 for user demo_user
+2025-05-03 14:15:51,165 - app.screens.navigation_screen - INFO - Initializing navigation with tracking ID: track_demo_user_1746274551
+2025-05-03 14:15:51,192 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("Column.__init__() got an unexpected keyword argument 'padding'")>
+Traceback (most recent call last):
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet\core\page.py", line 903, in wrapper
+    handler(*args)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\main.py", line 124, in route_change
+    self.page.views.append(screen.build())
+                           ~~~~~~~~~~~~^^
+  File "C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\screens\navigation_screen.py", line 67, in build
+    content = self._build_content()
+  File "C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\screens\navigation_screen.py", line 302, in _build_content
+    return ft.Column(
+           ~~~~~~~~~^
+        controls=[
+        ^^^^^^^^^^
+    ...<65 lines>...
+        padding=20,
+        ^^^^^^^^^^^
+    )
+    ^
+TypeError: Column.__init__() got an unexpected keyword argument 'padding'
+2025-05-03 14:20:36,069 - flet - INFO - Assets path configured: C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\assets
+2025-05-03 14:20:36,075 - flet - INFO - Starting up TCP server on localhost:49287
+2025-05-03 14:20:36,082 - flet - INFO - Flet app has started...
+2025-05-03 14:20:36,094 - flet - INFO - App URL: tcp://localhost:49287
+2025-05-03 14:20:36,094 - flet_desktop - INFO - Starting Flet View app...
+2025-05-03 14:20:36,097 - flet_desktop - INFO - Looking for Flet executable at: C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet_desktop\app\flet\flet.exe
+2025-05-03 14:20:36,098 - flet_desktop - INFO - Flet View found in: C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet_desktop\app\flet\flet.exe
+2025-05-03 14:20:36,441 - flet - INFO - App session started
+2025-05-03 14:20:36,444 - app.services.location_service - INFO - Initializing location service
+2025-05-03 14:20:36,445 - app.services.service_manager - INFO - Initializing service manager
+2025-05-03 14:20:36,446 - app.services.safe_route_service - INFO - Initializing safe route service
+2025-05-03 14:20:36,452 - app.services.ai_safety_service - INFO - Initializing AI safety service
+2025-05-03 14:20:36,453 - app.services.crime_data_service - INFO - Initializing crime data service
+2025-05-03 14:20:36,454 - app.services.crime_data_service - INFO - Simulating loading crime data from Cosmos DB
+2025-05-03 14:20:36,655 - app.services.crime_data_service - INFO - Generating synthetic crime data
+2025-05-03 14:20:36,675 - app.services.safety_prediction_service - INFO - Initializing safety prediction service
+2025-05-03 14:20:36,676 - app.services.safety_prediction_service - INFO - Using Azure AI services for predictions
+2025-05-03 14:20:36,676 - app.services.location_tracking_service - INFO - Initializing location tracking service
+2025-05-03 14:20:36,677 - app.services.feedback_service - INFO - Initializing feedback service
+2025-05-03 14:20:36,678 - app.services.feedback_service - INFO - Loaded 10 feedback items
+2025-05-03 14:20:36,679 - app.services.feedback_service - INFO - Loaded 27 safety reports
+2025-05-03 14:20:36,680 - app.services.feedback_service - INFO - Loaded 10 community alerts
+2025-05-03 14:20:36,680 - app.services.azure_functions_service - INFO - Azure Functions service initialized
+2025-05-03 14:23:43,263 - flet - INFO - Assets path configured: C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\assets
+2025-05-03 14:23:43,268 - flet - INFO - Starting up TCP server on localhost:51996
+2025-05-03 14:23:43,277 - flet - INFO - Flet app has started...
+2025-05-03 14:23:43,286 - flet - INFO - App URL: tcp://localhost:51996
+2025-05-03 14:23:43,286 - flet_desktop - INFO - Starting Flet View app...
+2025-05-03 14:23:43,287 - flet_desktop - INFO - Looking for Flet executable at: C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet_desktop\app\flet\flet.exe
+2025-05-03 14:23:43,288 - flet_desktop - INFO - Flet View found in: C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet_desktop\app\flet\flet.exe
+2025-05-03 14:23:43,626 - flet - INFO - App session started
+2025-05-03 14:23:43,629 - app.services.location_service - INFO - Initializing location service
+2025-05-03 14:23:43,629 - app.services.service_manager - INFO - Initializing service manager
+2025-05-03 14:23:43,630 - app.services.safe_route_service - INFO - Initializing safe route service
+2025-05-03 14:23:43,637 - app.services.ai_safety_service - INFO - Initializing AI safety service
+2025-05-03 14:23:43,637 - app.services.crime_data_service - INFO - Initializing crime data service
+2025-05-03 14:23:43,637 - app.services.crime_data_service - INFO - Simulating loading crime data from Cosmos DB
+2025-05-03 14:23:43,838 - app.services.crime_data_service - INFO - Generating synthetic crime data
+2025-05-03 14:23:43,862 - app.services.safety_prediction_service - INFO - Initializing safety prediction service
+2025-05-03 14:23:43,863 - app.services.safety_prediction_service - INFO - Using Azure AI services for predictions
+2025-05-03 14:23:43,864 - app.services.location_tracking_service - INFO - Initializing location tracking service
+2025-05-03 14:23:43,865 - app.services.feedback_service - INFO - Initializing feedback service
+2025-05-03 14:23:43,867 - app.services.feedback_service - INFO - Loaded 10 feedback items
+2025-05-03 14:23:43,868 - app.services.feedback_service - INFO - Loaded 27 safety reports
+2025-05-03 14:23:43,871 - app.services.feedback_service - INFO - Loaded 10 community alerts
+2025-05-03 14:23:43,871 - app.services.azure_functions_service - INFO - Azure Functions service initialized
+2025-05-03 14:26:46,390 - flet - INFO - Assets path configured: C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\assets
+2025-05-03 14:26:46,392 - flet - INFO - Starting up TCP server on localhost:54318
+2025-05-03 14:26:46,396 - flet - INFO - Flet app has started...
+2025-05-03 14:26:46,404 - flet - INFO - App URL: tcp://localhost:54318
+2025-05-03 14:26:46,405 - flet_desktop - INFO - Starting Flet View app...
+2025-05-03 14:26:46,406 - flet_desktop - INFO - Looking for Flet executable at: C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet_desktop\app\flet\flet.exe
+2025-05-03 14:26:46,406 - flet_desktop - INFO - Flet View found in: C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet_desktop\app\flet\flet.exe
+2025-05-03 14:26:46,616 - flet - INFO - App session started
+2025-05-03 14:26:46,619 - app.services.location_service - INFO - Initializing location service
+2025-05-03 14:26:46,619 - app.services.service_manager - INFO - Initializing service manager
+2025-05-03 14:26:46,619 - app.services.safe_route_service - INFO - Initializing safe route service
+2025-05-03 14:26:46,623 - app.services.ai_safety_service - INFO - Initializing AI safety service
+2025-05-03 14:26:46,624 - app.services.crime_data_service - INFO - Initializing crime data service
+2025-05-03 14:26:46,624 - app.services.crime_data_service - INFO - Simulating loading crime data from Cosmos DB
+2025-05-03 14:26:46,825 - app.services.crime_data_service - INFO - Generating synthetic crime data
+2025-05-03 14:26:46,840 - app.services.safety_prediction_service - INFO - Initializing safety prediction service
+2025-05-03 14:26:46,840 - app.services.safety_prediction_service - INFO - Using Azure AI services for predictions
+2025-05-03 14:26:46,841 - app.services.location_tracking_service - INFO - Initializing location tracking service
+2025-05-03 14:26:46,842 - app.services.feedback_service - INFO - Initializing feedback service
+2025-05-03 14:26:46,849 - app.services.feedback_service - INFO - Loaded 10 feedback items
+2025-05-03 14:26:46,851 - app.services.feedback_service - INFO - Loaded 27 safety reports
+2025-05-03 14:26:46,852 - app.services.feedback_service - INFO - Loaded 10 community alerts
+2025-05-03 14:26:46,852 - app.services.azure_functions_service - INFO - Azure Functions service initialized
+2025-05-03 14:27:26,722 - app.screens.safe_route_screen - INFO - Finding route from 3012 winnie mandela dr to 57 Bok street via walking at afternoon
+2025-05-03 14:27:26,724 - app.services.safety_prediction_service - INFO - Predicting safety for route with 3 points at afternoon
+2025-05-03 14:27:26,725 - app.services.safety_prediction_service - INFO - Using Azure AI for safety prediction
+2025-05-03 14:27:27,026 - app.services.safety_prediction_service - INFO - Generating alternative routes with AI safety analysis
+2025-05-03 14:27:27,042 - app.services.safety_prediction_service - INFO - Predicting safety for route with 3 points at afternoon
+2025-05-03 14:27:27,042 - app.services.safety_prediction_service - INFO - Predicting safety for route with 5 points at afternoon
+2025-05-03 14:27:27,049 - app.screens.safe_route_screen - ERROR - Error updating route display with AI analysis: colors.with_opacity() missing 1 required positional argument: 'color'
+2025-05-03 14:27:27,056 - app.services.location_tracking_service - INFO - Started tracking track_demo_user_1746275247 for user demo_user
+2025-05-03 14:27:27,056 - app.screens.navigation_screen - INFO - Initializing navigation with tracking ID: track_demo_user_1746275247
+2025-05-03 14:27:27,064 - app.screens.navigation_screen - ERROR - Error adding alert: 'NoneType' object has no attribute 'controls'
+2025-05-03 14:27:27,074 - asyncio - ERROR - Future exception was never retrieved
+future: <Future finished exception=TypeError("Column.__init__() got an unexpected keyword argument 'padding'")>
+Traceback (most recent call last):
+  File "C:\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\makha\AppData\Roaming\Python\Python313\site-packages\flet\core\page.py", line 903, in wrapper
+    handler(*args)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\main.py", line 124, in route_change
+    self.page.views.append(screen.build())
+                           ~~~~~~~~~~~~^^
+  File "C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\screens\navigation_screen.py", line 70, in build
+    content = self._build_content()
+  File "C:\Users\makha\OneDrive\Desktop\MSAIskillshackathon\app\screens\navigation_screen.py", line 305, in _build_content
+    return ft.Column(
+           ~~~~~~~~~^
+        controls=[
+        ^^^^^^^^^^
+    ...<65 lines>...
+        padding=20,
+        ^^^^^^^^^^^
+    )
+    ^
+TypeError: Column.__init__() got an unexpected keyword argument 'padding'
+2025-05-03 14:29:07,929 - app.screens.safe_route_screen - INFO - Tracking event: safety_warning
+2025-05-03 14:29:27,944 - app.screens.safe_route_screen - INFO - Tracking event: safety_warning
+2025-05-03 14:29:47,959 - app.screens.safe_route_screen - INFO - Tracking event: safety_warning
+2025-05-03 14:30:07,973 - app.screens.safe_route_screen - INFO - Tracking event: safety_warning
+2025-05-03 14:30:27,984 - app.screens.safe_route_screen - INFO - Tracking event: safety_warning
+2025-05-03 14:30:47,998 - app.screens.safe_route_screen - INFO - Tracking event: safety_warning
+2025-05-03 14:31:08,012 - app.screens.safe_route_screen - INFO - Tracking event: safety_warning
+2025-05-03 14:31:28,025 - app.screens.safe_route_screen - INFO - Tracking event: safety_warning

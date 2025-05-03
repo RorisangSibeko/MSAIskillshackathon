@@ -1,0 +1,117 @@
+{
+  "tiers": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "price_monthly": 0.0,
+      "price_yearly": 0.0,
+      "description": "Basic safety monitoring for individuals",
+      "features": [
+        "AI monitoring with limited checks",
+        "Manual emergency reporting",
+        "Basic incident history (7 days)",
+        "1 emergency contact"
+      ]
+    },
+    {
+      "id": "standard",
+      "name": "Standard",
+      "price_monthly": 4.99,
+      "price_yearly": 49.99,
+      "description": "Enhanced safety for individuals and families",
+      "features": [
+        "Advanced AI monitoring with frequent checks",
+        "Manual and voice emergency reporting",
+        "Full incident history",
+        "5 emergency contacts",
+        "Safe route planning",
+        "GBV resources and support",
+        "Emergency services direct contact"
+      ]
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "price_monthly": 9.99,
+      "price_yearly": 99.99,
+      "description": "Complete safety solution with IoT integration",
+      "features": [
+        "Real-time AI monitoring",
+        "All Standard features",
+        "IoT device integration",
+        "Home security system connection",
+        "Unlimited emergency contacts",
+        "Insurance company integration",
+        "Priority emergency response",
+        "24/7 safety monitoring team access"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "price_monthly": 49.99,
+      "price_yearly": 499.99,
+      "description": "Comprehensive safety solution for businesses",
+      "features": [
+        "All Premium features",
+        "Multiple location monitoring",
+        "Employee safety management",
+        "Custom security integrations",
+        "API access for custom solutions",
+        "Dedicated account manager",
+        "Custom reporting and analytics",
+        "On-site security consultation"
+      ]
+    }
+  ],
+  "feature_matrix": {
+    "ai_monitoring": {
+      "basic": "limited",
+      "standard": "enhanced",
+      "premium": "real-time",
+      "enterprise": "real-time+"
+    },
+    "emergency_contacts": {
+      "basic": 1,
+      "standard": 5,
+      "premium": "unlimited",
+      "enterprise": "unlimited"
+    },
+    "incident_history": {
+      "basic": 7,
+      "standard": 30,
+      "premium": 90,
+      "enterprise": "unlimited"
+    },
+    "iot_integration": {
+      "basic": false,
+      "standard": false,
+      "premium": true,
+      "enterprise": true
+    },
+    "insurance_integration": {
+      "basic": false,
+      "standard": false,
+      "premium": true,
+      "enterprise": true
+    },
+    "gbv_resources": {
+      "basic": "basic",
+      "standard": "enhanced",
+      "premium": "comprehensive",
+      "enterprise": "comprehensive"
+    },
+    "safe_routes": {
+      "basic": false,
+      "standard": true,
+      "premium": true,
+      "enterprise": true
+    },
+    "emergency_services": {
+      "basic": "basic",
+      "standard": "direct",
+      "premium": "priority",
+      "enterprise": "dedicated"
+    }
+  }
+}
