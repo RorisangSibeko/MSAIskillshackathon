@@ -1,46 +1,68 @@
 {
   "hotlines": [
     {
-      "name": "National Domestic Violence Hotline",
-      "phone": "1-800-799-7233",
-      "sms": "Text START to 88788",
-      "website": "https://www.thehotline.org/",
+      "name": "GBV Command Centre",
+      "phone": "0800 428 428",
+      "sms": "Send a please call me to *120*7867#",
+      "website": "https://www.gov.za/GBVCommandCentre",
       "hours": "24/7",
       "languages": [
         "English",
-        "Spanish",
-        "200+ languages through interpretation"
+        "Afrikaans",
+        "isiZulu",
+        "isiXhosa",
+        "Sesotho",
+        "Other official SA languages"
       ]
     },
     {
-      "name": "RAINN (Rape, Abuse & Incest National Network)",
-      "phone": "1-800-656-4673",
-      "website": "https://www.rainn.org/",
+      "name": "POWA (People Opposing Women Abuse)",
+      "phone": "011 642 4345",
+      "website": "https://www.powa.co.za/",
+      "hours": "Mon-Fri 8:30-16:30",
+      "languages": [
+        "English",
+        "isiZulu",
+        "isiXhosa",
+        "Sesotho"
+      ]
+    },
+    {
+      "name": "Lifeline South Africa",
+      "phone": "0861 322 322",
+      "website": "https://www.lifeline.org.za/",
       "hours": "24/7",
       "languages": [
         "English",
-        "Spanish"
+        "Afrikaans",
+        "isiZulu",
+        "isiXhosa"
       ]
     },
     {
-      "name": "StrongHearts Native Helpline",
-      "phone": "1-844-762-8483",
-      "website": "https://strongheartshelpline.org/",
-      "hours": "24/7",
-      "languages": [
-        "English"
-      ]
-    },
-    {
-      "name": "National Human Trafficking Hotline",
-      "phone": "1-888-373-7888",
-      "sms": "Text 233733",
-      "website": "https://humantraffickinghotline.org/",
+      "name": "South African Police Service",
+      "phone": "10111",
+      "website": "https://www.saps.gov.za/",
       "hours": "24/7",
       "languages": [
         "English",
-        "Spanish",
-        "200+ languages through interpretation"
+        "Afrikaans",
+        "isiZulu",
+        "isiXhosa",
+        "Other official SA languages"
+      ]
+    },
+    {
+      "name": "Childline South Africa",
+      "phone": "116",
+      "website": "https://www.childlinesa.org.za/",
+      "hours": "24/7",
+      "languages": [
+        "English",
+        "Afrikaans",
+        "isiZulu",
+        "isiXhosa",
+        "Other official SA languages"
       ]
     }
   ],
@@ -49,7 +71,7 @@
       "id": "immediate_danger",
       "name": "Immediate Danger Plan",
       "steps": [
-        "If you're in immediate danger, call emergency services (911)",
+        "If you're in immediate danger, call emergency services (10111 for police, 10177 for ambulance)",
         "If possible, move to a room with an exit and avoid kitchens or rooms with weapons",
         "Use your emergency code word with family/friends",
         "If you can't call safely, use the SafeWayAI silent alert feature",
@@ -98,38 +120,74 @@
   ],
   "shelters": [
     {
-      "name": "Example Shelter 1",
-      "phone": "555-123-4567",
-      "location": "Confidential - Call for information",
+      "name": "Nisaa Institute for Women's Development",
+      "phone": "011 854 5804",
+      "location": "Confidential - Call for information (Johannesburg)",
       "services": [
         "Emergency housing",
         "Counseling",
-        "Legal advocacy"
+        "Legal advocacy",
+        "Skills development"
       ]
     },
     {
-      "name": "Example Shelter 2",
-      "phone": "555-987-6543",
-      "location": "Confidential - Call for information",
+      "name": "Sisters Incorporated",
+      "phone": "021 797 4190",
+      "location": "Confidential - Call for information (Cape Town)",
       "services": [
         "Emergency housing",
         "Children's programs",
-        "Support groups"
+        "Support groups",
+        "Counseling"
+      ]
+    },
+    {
+      "name": "Saartjie Baartman Centre",
+      "phone": "021 633 5287",
+      "location": "Confidential - Call for information (Cape Town)",
+      "services": [
+        "Emergency housing",
+        "Legal services",
+        "Counseling",
+        "Job skills training"
+      ]
+    },
+    {
+      "name": "Bethany House",
+      "phone": "012 800 2372",
+      "location": "Confidential - Call for information (Pretoria)",
+      "services": [
+        "Emergency housing",
+        "Children's programs",
+        "Counseling",
+        "Life skills"
       ]
     }
   ],
   "legal_resources": [
     {
-      "name": "Legal Aid Society",
+      "name": "Legal Aid South Africa",
       "description": "Free legal services for qualifying individuals",
-      "website": "https://www.legalaidexample.org/",
-      "phone": "555-111-2222"
+      "website": "https://legal-aid.co.za/",
+      "phone": "0800 110 110"
     },
     {
-      "name": "Protective Order Information",
-      "description": "Information on obtaining protective orders",
-      "website": "https://www.courts.state.example.us/protective-orders",
-      "phone": "555-333-4444"
+      "name": "Protection Order Information",
+      "description": "Information on obtaining protection orders under the Domestic Violence Act",
+      "website": "https://www.justice.gov.za/vg/dv.html",
+      "phone": "012 315 1111"
+    },
+    {
+      "name": "Lawyers Against Abuse (LvA)",
+      "description": "Legal and psychosocial support for victims of gender-based violence",
+      "website": "https://www.lva.org.za/",
+      "phone": "087 150 7235"
+    },
+    {
+      "name": "National Prosecuting Authority (NPA)",
+      "description": "Information on criminal cases and victim support",
+      "website": "https://www.npa.gov.za/",
+      "phone": "012 845 6000"
     }
   ],
   "warning_signs": [
@@ -166,19 +224,29 @@
   ],
   "educational_resources": [
     {
-      "title": "Understanding the Cycle of Abuse",
+      "title": "Understanding Gender-Based Violence in South Africa",
       "type": "article",
-      "url": "https://example.org/cycle-of-abuse"
+      "url": "https://www.saferspaces.org.za/understand/entry/gender-based-violence-in-south-africa"
     },
     {
-      "title": "Safety Planning Guide",
+      "title": "South African Safety Planning Guide",
       "type": "pdf",
-      "url": "https://example.org/safety-planning.pdf"
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/safety-planning-guide.pdf"
     },
     {
-      "title": "Helping a Friend in an Abusive Relationship",
+      "title": "Supporting a Survivor of Gender-Based Violence",
       "type": "video",
-      "url": "https://example.org/helping-friend-video"
+      "url": "https://www.youtube.com/watch?v=safewayai-support-video"
+    },
+    {
+      "title": "Know Your Rights: Domestic Violence Act",
+      "type": "article",
+      "url": "https://www.justice.gov.za/vg/dv/dv-act.html"
+    },
+    {
+      "title": "Safety Tips for Women in South Africa",
+      "type": "pdf",
+      "url": "https://www.saps.gov.za/resource_centre/women_children/safety-tips-women.pdf"
     }
   ]
 }

@@ -40,7 +40,7 @@ class LocationService:
         self.safe_route_service = SafeRouteService()
 
         # Initialize state
-        self.current_location = {"latitude": 37.7749, "longitude": -122.4194}  # Default to San Francisco
+        self.current_location = {"latitude": -26.2041, "longitude": 28.0473}  # Default to Johannesburg CBD
         self.location_history = []
         self.tracking_active = False
         self.tracking_thread = None

@@ -148,7 +148,7 @@ class SafeRouteScreen:
                 on_click=self._use_current_location,
             ),
             border_radius=8,
-            value="3012 winnie mandela dr",  # Default value for testing
+            value="55 Anderson Street, Johannesburg",  # Default value for testing
         )
 
         self.destination_field = ft.TextField(
@@ -161,7 +161,7 @@ class SafeRouteScreen:
                 on_click=self._search_locations,
             ),
             border_radius=8,
-            value="57 Bok street",  # Default value for testing
+            value="Sandton City Mall, Johannesburg",  # Default value for testing
         )
 
         self.travel_mode_dropdown = ft.Dropdown(
@@ -676,8 +676,8 @@ class SafeRouteScreen:
     def _use_current_location(self, e=None):
         """Use the current location (would use device GPS in a real implementation)."""
         # In a real implementation, this would use the device's GPS
-        # For now, we'll set a default location
-        self.start_location_field.value = "Current Location (GPS)"
+        # For now, we'll set a default location in Johannesburg
+        self.start_location_field.value = "Current Location: Johannesburg CBD"
         self.page.update()
 
     def _search_locations(self, e=None):
