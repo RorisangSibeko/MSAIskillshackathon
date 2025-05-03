@@ -1,0 +1,58 @@
+[
+  {
+    "id": "report_1",
+    "type": "suspicious_activity",
+    "description": "Suspicious person watching ATM users on Main Street",
+    "location": {
+      "latitude": -26.1052,
+      "longitude": 28.056,
+      "address": "Main Street, Sandton"
+    },
+    "timestamp": "2025-05-02T15:25:28.215168",
+    "severity": "medium",
+    "status": "verified",
+    "source": "community_chat"
+  },
+  {
+    "id": "report_2",
+    "type": "infrastructure",
+    "description": "Street lights not working on Park Avenue",
+    "location": {
+      "latitude": -26.107,
+      "longitude": 28.0567,
+      "address": "Park Avenue, Sandton"
+    },
+    "timestamp": "2025-04-30T12:25:28.215171",
+    "severity": "low",
+    "status": "pending",
+    "source": "community_chat"
+  },
+  {
+    "id": "report_3",
+    "type": "crime",
+    "description": "Smartphone theft reported at Central Mall",
+    "location": {
+      "latitude": -26.1045,
+      "longitude": 28.0577,
+      "address": "Central Mall, Sandton"
+    },
+    "timestamp": "2025-05-01T06:25:28.215173",
+    "severity": "medium",
+    "status": "verified",
+    "source": "community_chat"
+  },
+  {
+    "id": "report_1746302685",
+    "type": "other",
+    "description": "There is danger",
+    "location": {
+      "latitude": 0,
+      "longitude": 0,
+      "address": "Unknown location"
+    },
+    "timestamp": "2025-05-03T22:04:45.980077",
+    "severity": "low",
+    "status": "pending",
+    "source": "community_chat"
+  }
+]

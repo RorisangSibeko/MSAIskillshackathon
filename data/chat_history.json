@@ -1,0 +1,274 @@
+[
+  {
+    "id": "msg_1",
+    "sender": "system",
+    "content": "Welcome to SafeWayAI Community Chat! I'm here to help keep you and your community safe. You can report incidents, ask for safety advice, or check on the safety status of different areas.",
+    "timestamp": "2025-05-01T17:25:28.215138",
+    "is_alert": false
+  },
+  {
+    "id": "msg_2",
+    "sender": "user",
+    "content": "Hi there! Is this area safe to walk through at night?",
+    "timestamp": "2025-05-01T18:25:28.215146",
+    "is_alert": false
+  },
+  {
+    "id": "msg_3",
+    "sender": "ai",
+    "content": "Based on community reports and safety data, the area around your current location has moderate safety concerns after dark. I recommend using well-lit main roads and avoiding shortcuts through less populated areas. Would you like me to suggest a safer route?",
+    "timestamp": "2025-05-01T18:25:28.215149",
+    "is_alert": false
+  },
+  {
+    "id": "msg_4",
+    "sender": "user",
+    "content": "Yes, please suggest a safer route.",
+    "timestamp": "2025-05-01T18:25:28.215151",
+    "is_alert": false
+  },
+  {
+    "id": "msg_5",
+    "sender": "ai",
+    "content": "I've analyzed the area and found a safer route that takes approximately 3 minutes longer but has better lighting and more foot traffic. I've sent the route to your navigation screen. Would you like me to notify a trusted contact that you're on your way?",
+    "timestamp": "2025-05-01T18:25:28.215153",
+    "is_alert": false
+  },
+  {
+    "id": "msg_6",
+    "sender": "user",
+    "content": "No thanks, I'll be fine with the safer route.",
+    "timestamp": "2025-05-01T19:25:28.215154",
+    "is_alert": false
+  },
+  {
+    "id": "msg_7",
+    "sender": "ai",
+    "content": "Understood. Stay safe and feel free to check in with me during your journey if you need anything else. I'm here to help 24/7.",
+    "timestamp": "2025-05-01T19:25:28.215156",
+    "is_alert": false
+  },
+  {
+    "id": "msg_8",
+    "sender": "user",
+    "content": "I just saw someone suspicious hanging around the ATM on Main Street. They seem to be watching people withdraw money.",
+    "timestamp": "2025-05-02T15:25:28.215158",
+    "is_alert": true
+  },
+  {
+    "id": "msg_9",
+    "sender": "ai",
+    "content": "Thank you for reporting this. I've logged this as a safety alert and notified community moderators. Can you provide any more details about the person or the exact location?",
+    "timestamp": "2025-05-02T15:25:28.215160",
+    "is_alert": true
+  },
+  {
+    "id": "msg_10",
+    "sender": "system",
+    "content": "\u26a0\ufe0f ALERT: This report has been logged and shared with local authorities. Other community members in the area have been notified to exercise caution near ATMs on Main Street.",
+    "timestamp": "2025-05-02T15:25:28.215166",
+    "is_alert": true
+  },
+  {
+    "id": "msg_1746299612",
+    "sender": "user",
+    "content": "hy",
+    "timestamp": "2025-05-03T21:13:32.319625",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746299612",
+    "sender": "ai",
+    "content": "I've recorded this safety concern and alerted local authorities. Your report helps keep the community safe. Is there anything else you can tell me about what happened?",
+    "timestamp": "2025-05-03T21:13:32.321390",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746299626",
+    "sender": "user",
+    "content": "alert alert",
+    "timestamp": "2025-05-03T21:13:46.272826",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746299626",
+    "sender": "ai",
+    "content": "This has been logged as a safety alert. Community members in the area will be notified. Can you share any additional information that might help authorities respond?",
+    "timestamp": "2025-05-03T21:13:46.273220",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746300031",
+    "sender": "user",
+    "content": "hy",
+    "timestamp": "2025-05-03T21:20:31.222450",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746300031",
+    "sender": "ai",
+    "content": "Thank you for reaching out. I'm constantly learning from community reports to provide better safety information. How can I assist you today?",
+    "timestamp": "2025-05-03T21:20:31.288633",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746300038",
+    "sender": "user",
+    "content": "ai",
+    "timestamp": "2025-05-03T21:20:38.083321",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746300038",
+    "sender": "ai",
+    "content": "Is there a specific safety concern I can help you with? I'm here to provide guidance and support for your community safety needs.",
+    "timestamp": "2025-05-03T21:20:38.088032",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746300220",
+    "sender": "user",
+    "content": "ai",
+    "timestamp": "2025-05-03T21:23:40.126883",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746300220",
+    "sender": "ai",
+    "content": "Is there a specific safety concern I can help you with? I'm here to provide guidance and support for your community safety needs.",
+    "timestamp": "2025-05-03T21:23:40.149240",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746300241",
+    "sender": "user",
+    "content": "ai",
+    "timestamp": "2025-05-03T21:24:01.336499",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746300241",
+    "sender": "ai",
+    "content": "How can I assist you with your safety today? I can provide information about safe routes, emergency contacts, or help you report safety concerns.",
+    "timestamp": "2025-05-03T21:24:01.339903",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746302685",
+    "sender": "user",
+    "content": "There is danger",
+    "timestamp": "2025-05-03T22:04:45.978249",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746302685",
+    "sender": "ai",
+    "content": "This has been logged as a safety alert. Community members in the area will be notified. Can you share any additional information that might help authorities respond?",
+    "timestamp": "2025-05-03T22:04:45.980025",
+    "is_alert": true
+  },
+  {
+    "id": "msg_alert_1746302685",
+    "sender": "system",
+    "content": "\u26a0\ufe0f ALERT: This report has been logged and shared with local authorities. Other community members in the area have been notified to exercise caution.",
+    "timestamp": "2025-05-03T22:04:45.980096",
+    "is_alert": true
+  },
+  {
+    "id": "msg_1746302770",
+    "sender": "user",
+    "content": "how safe is this area",
+    "timestamp": "2025-05-03T22:06:10.616656",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746302770",
+    "sender": "ai",
+    "content": "This has been logged as a safety alert. Community members in the area will be notified. Can you share any additional information that might help authorities respond?",
+    "timestamp": "2025-05-03T22:06:10.618806",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746302826",
+    "sender": "user",
+    "content": "What's the safest way to get to Sandton from Johannesburg CBD?",
+    "timestamp": "2025-05-03T22:07:06.131085",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746302826",
+    "sender": "ai",
+    "content": "This has been logged as a safety alert. Community members in the area will be notified. Can you share any additional information that might help authorities respond?",
+    "timestamp": "2025-05-03T22:07:06.134730",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746303030",
+    "sender": "user",
+    "content": "What's the safest way to get to Sandton from Johannesburg CBD?",
+    "timestamp": "2025-05-03T22:10:30.937044",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746303030",
+    "sender": "ai",
+    "content": "This has been logged as a safety alert. Community members in the area will be notified. Can you share any additional information that might help authorities respond?",
+    "timestamp": "2025-05-03T22:10:30.937425",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746303063",
+    "sender": "user",
+    "content": "Yes, please suggest a safer route.",
+    "timestamp": "2025-05-03T22:11:03.425455",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746303063",
+    "sender": "ai",
+    "content": "Thank you for reporting this. I've logged this as a safety alert and notified community moderators. Can you provide any more details about the incident?",
+    "timestamp": "2025-05-03T22:11:03.425849",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746303072",
+    "sender": "user",
+    "content": "Yes, please suggest a safer route.",
+    "timestamp": "2025-05-03T22:11:12.198343",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746303072",
+    "sender": "ai",
+    "content": "I've recorded this safety concern and alerted local authorities. Your report helps keep the community safe. Is there anything else you can tell me about what happened?",
+    "timestamp": "2025-05-03T22:11:12.199491",
+    "is_alert": false
+  },
+  {
+    "id": "msg_1746303508",
+    "sender": "user",
+    "content": "Yes, please suggest a safer route.",
+    "timestamp": "2025-05-03T22:18:28.310340",
+    "is_alert": false,
+    "location": null
+  },
+  {
+    "id": "msg_1746303508",
+    "sender": "ai",
+    "content": "This has been logged as a safety alert. Community members in the area will be notified. Can you share any additional information that might help authorities respond?",
+    "timestamp": "2025-05-03T22:18:28.311956",
+    "is_alert": false
+  }
+]
